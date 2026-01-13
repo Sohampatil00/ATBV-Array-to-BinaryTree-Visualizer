@@ -1,9 +1,9 @@
-ATBV: Array to Binary Tree Visualizer
-🔍 Core Concept
+## ATBV: Array to Binary Tree Visualizer
+## Core Concept
 ATBV is a web-based visualization tool that instantly converts array representations of binary trees into interactive diagrams. It implements the standard level-order array format used by platforms like LeetCode.
 <img width="2952" height="2701" alt="_- visual selection (4)" src="https://github.com/user-attachments/assets/fd910c3e-21ac-47c6-a90a-825ba4b96354" />
 
-🛠️ How It Works (Code Steps)
+## How It Works (Code Steps)
 1. Parse Input
 javascript
 // Converts "[1,2,3,null,5]" → [1, 2, 3, null, 5]
@@ -56,7 +56,7 @@ function renderTree(root) {
 }
 <img width="2736" height="1759" alt="_- visual selection (3)" src="https://github.com/user-attachments/assets/e4038f5c-1996-4618-a32b-bcf7309f9a38" />
 
-🎯 Key Features
+## Key Features
 Real-time conversion: Array → Visual tree
 
 Standard format: Uses LeetCode's [1,2,3,null,5] syntax
@@ -65,7 +65,7 @@ Interactive: Click to expand/collapse branches
 
 Zero setup: Runs directly in browser
 
-💻 Usage Example
+## Usage Example
 javascript
 // Input (LeetCode format)
 [3,9,20,null,null,15,7]
